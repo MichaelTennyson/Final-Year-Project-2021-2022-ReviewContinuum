@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "main package - FYP - review continuum - C18302166",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelTennyson/Final-Year-Project-2021-2022-Reviewcontinuum.git"
+  },
+  "author": "Michael Tennyson/ C18302166",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelTennyson/Final-Year-Project-2021-2022-Reviewcontinuum/issues"
+  },
+  "homepage": "https://github.com/MichaelTennyson/Final-Year-Project-2021-2022-Reviewcontinuum#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
